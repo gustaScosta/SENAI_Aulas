@@ -14,8 +14,3 @@ if st.button('Salvar'):
 st.subheader('histórico')
 for nota in controller.listar_notas():
     st.write(nota)       
-
-
-
-
-
